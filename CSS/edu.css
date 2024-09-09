@@ -1,0 +1,31 @@
+.text2 {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+}
+.image {
+  display: flex;
+}
+.img2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  top: 100px;
+}
+.cstad {
+  width: 300px;
+}
+.image > .img2 > a {
+  position: absolute;
+  top: 650px;
+  right: 300px;
+}
+.rupp {
+  width: 400px;
+}

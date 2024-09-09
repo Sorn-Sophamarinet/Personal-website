@@ -1,0 +1,31 @@
+.text3 {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  align-items: center;
+}
+.sec {
+  display: flex;
+}
+.img3 {
+  width: 50%;
+}
+.sec > .img3 > img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 50px;
+}
+.letter {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+button {
+  position: relative;
+  top: 50px;
+  right: 50px;
+}

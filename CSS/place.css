@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text4 {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  align-items: center;
+}
+.sec1 {
+  display: flex;
+}
+.img5 {
+  width: 50%;
+  text-align: center;
+}
+.sec1 > .img5 > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px;
+}
+.letter1 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
+.img5 > p {
+  font-size: 30px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+}
+button {
+  position: relative;
+  top: 10px;
+  right: 70px;
+}
+.sec2 {
+  margin: 40px;
+}

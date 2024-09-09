@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+.head {
+  background-color: lightblue;
+  height: 80px;
+  text-decoration: none;
+  display: flex;
+}
+.img {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img > img {
+  width: 200px;
+}
+.menu a {
+  color: white;
+}
+.head > .menu {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.head > .icon {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.head > .icon > i {
+  padding-left: 20px;
+}
+.text {
+  padding-top: 200px;
+  width: 50%;
+  text-align: center;
+}
+.text h1 {
+  font-size: 80px;
+}
+.text p {
+  font-size: 50px;
+  margin-right: 70px;
+}
+section {
+  display: flex;
+}
+.pic {
+  width: 50%;
+}
+.pic img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+button {
+  background-color: cyan;
+  color: white;
+  margin-left: 20%;
+  position: absolute;
+  bottom: 210px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 16px;
+}

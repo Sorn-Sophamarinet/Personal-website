@@ -1,0 +1,39 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.picture {
+  display: flex;
+  margin-top: 70px;
+}
+.img4 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+  top: 100px;
+}
+.food {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.place,
+.hobby {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  bottom: 30px;
+  left: 400px;
+}
